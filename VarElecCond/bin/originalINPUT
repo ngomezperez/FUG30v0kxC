@@ -1,0 +1,25 @@
+data file for parallel magnetoconvection program
+
+2	     INPUT FLAG (1 for CK/F, 2 for Ra/Q)
+
+VALUE        VARIABLE
+1.66667      GAMMA
+1.00          SIGMA
+10.0         THETA
+100000      CK (if FLAG=1) or Ra (if FLAG=2)
+1.0          CM
+2500.0          F (if FLAG=1) or Q (if FLAG=2)
+0.0      TAYL (mid layer)
+1.570796327         PSI
+0.2          ZETA
+4.0          XMAX
+4.0          YMAX
+0.2          SF
+0            NFRAME
+10       TOTAL
+2          NDU06
+210        NDU16
+1            NDURESTART
+4	     NX
+4	     NY
+8	     NZ
